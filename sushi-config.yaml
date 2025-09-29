@@ -190,14 +190,6 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
-  generate-json: true
-  generate-xml: true
-  generate-turtle: true
-  path-resource:
-    - input/resources
-    - fsh-generated/resources
-    - input/examples
-  autoload-resources: 'true'
 
 
 # The FSHOnly flag indicates if only FSH resources should be exported.
@@ -211,6 +203,7 @@ FSHOnly: false
 
 dependencies:
   hl7.fhir.be.core: 2.1.2
+
 
 
 
