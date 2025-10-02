@@ -1,6 +1,7 @@
 Instance: patient1
 InstanceOf: BePatient
 Usage: #example
+Title: "Example Patient"
 * identifier.use = #official
 * identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * identifier.value = "99999999999"
